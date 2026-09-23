@@ -1,0 +1,48 @@
+# Environment & Credentials
+.env
+*.env
+*.pem
+*.key
+application_default_credentials.json
+service_account.json
+gcp-key.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Media
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs & Temporary Files
+*.log
+*.tmp
+.idea/
+.vscode/
+.DS_Store
+
+# --- added by publish-to-github skill ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.video_tmp/
+.DS_Store
+.env
+*.env
+application_default_credentials.json
+*-sa-key.json
+service-account*.json
+# Keep the demo GIF (README embeds it); ignore the large raw recording.
+*.webm
